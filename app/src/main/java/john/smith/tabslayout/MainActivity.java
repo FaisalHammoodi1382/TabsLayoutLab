@@ -1,4 +1,4 @@
-// Started working on lab
+// Started working on lab6
 package john.smith.tabslayout;
 
 import androidx.appcompat.app.AppCompatActivity;
