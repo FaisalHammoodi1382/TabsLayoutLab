@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#D3D3D3">
+
+    <TextView
+        android:id="@+id/faiTvFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/full_name"
+        android:textColor="@color/fai_name_red"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/faiDivider"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/faiTvSelectColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_color_label"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/fai_label_blue" />
+
+    <RadioGroup
+        android:id="@+id/faiRgColors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/faiRbGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/color_green"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/fai_green" />
+
+        <RadioButton
+            android:id="@+id/faiRbYellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/color_yellow"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/fai_yellow" />
+
+        <RadioButton
+            android:id="@+id/faiRbRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/color_red"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/fai_red" />
+
+        <RadioButton
+            android:id="@+id/faiRbOther"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/color_other"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@android:color/black" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/faiBtnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="22dp"
+        android:backgroundTint="@color/fai_submit_blue"
+        android:text="@string/submit"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

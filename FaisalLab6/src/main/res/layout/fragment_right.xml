@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/faiTvReceivedColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/no_data"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/fai_gray"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp" />
+
+        <CheckBox
+            android:id="@+id/faiCbHockey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hockey"
+            android:textStyle="bold|italic"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:buttonTint="@color/fai_checkbox_pink" />
+
+        <CheckBox
+            android:id="@+id/faiCbBasketball"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/basketball"
+            android:textStyle="bold|italic"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:buttonTint="@color/fai_checkbox_pink" />
+
+        <CheckBox
+            android:id="@+id/faiCbBaseball"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/baseball"
+            android:textStyle="bold|italic"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:buttonTint="@color/fai_checkbox_pink" />
+
+        <Button
+            android:id="@+id/faiBtnSport"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="18dp"
+            android:backgroundTint="@color/fai_dark_green"
+            android:text="@string/sport"
+            android:textAllCaps="false"
+            android:textStyle="bold|italic"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</ScrollView>

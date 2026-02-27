@@ -1,0 +1,28 @@
+<resources>
+    <!--
+      Name: Faisal Hammoodi
+      Student ID: n01701382
+    -->
+    <string name="app_name">TabsLayout</string>
+    <string name="leftfa_label">LeftFa</string>
+    <string name="rightdi_label">Rightdi</string>
+    <string name="tab_label">Tab %1$d</string>
+    <string name="tab1_title">TAB 1</string>
+    <string name="tab2_title">TAB 2</string>
+    <string name="select_color_label">Select Your Color:</string>
+    <string name="color_green">Green</string>
+    <string name="color_yellow">Yellow</string>
+    <string name="color_red">Red</string>
+    <string name="color_other">Other</string>
+    <string name="submit">SUBMIT</string>
+    <string name="no_data">NO DATA</string>
+    <string name="sport">SPORT</string>
+    <string name="hockey">Hockey</string>
+    <string name="basketball">Basketball</string>
+    <string name="baseball">Baseball</string>
+    <string name="selected_sports_title">Selected Sports</string>
+    <string name="ok">OK</string>
+    <string name="no_sport">NO SPORT</string>
+    <string name="full_name">Faisal Hammoodi</string>
+    <string name="color_selected_fmt">Color selected:\n%1$s</string>
+</resources>
